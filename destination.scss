@@ -1,0 +1,43 @@
+@import "common";
+@import "menu";
+
+#container{
+    margin:2rem;
+    margin-left:4rem;
+    
+.pick{
+    
+text-transform: uppercase;
+margin-left:1rem;
+}
+    
+}
+#image-placeholder{
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 50%;
+    }
+}
+#destination-name{
+    margin-top:1rem;
+    text-align: center;
+}
+.detail-container{
+    margin-top:2rem;
+    nav{
+        ul{
+            display: flex;
+            justify-content:center;
+            li{
+
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+#destination-detail{
+    margin-top: 1rem;
+}

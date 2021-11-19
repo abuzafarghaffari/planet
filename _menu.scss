@@ -1,0 +1,76 @@
+figure{
+    margin-left:3rem;
+}
+li{
+    list-style-type: none;
+    
+
+    a{
+        text-decoration: none;
+        color:white;
+    }
+
+}
+
+.desktop-view{
+    background-image: linear-gradient(to right,#0B0D17 60%,#979797 ,#0B0D17 90%);
+    margin-top:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+       
+        display: flex;
+        margin-right: 3rem;
+        li{
+            margin-right: 2rem;
+        }
+    }
+}
+
+// for responsive menu
+
+// disappear mobile menu in desktop view
+
+.mobile-menu-view{
+    display: none;
+}
+
+
+
+
+// for mobile menu
+@media only screen and (max-width:622px){
+
+    .desktop-view{
+        display: none;
+    }
+    .mobile-menu-view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:4rem;
+
+        div{
+            margin-right: 3rem;
+
+            ul{
+                position: fixed;
+                right:0px;
+                top:140px;
+                height: 60vh;
+                transform: translateX(100%);
+               
+                padding: 1rem;
+                transition: transform 1s ease;  
+                li{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .slide{
+        transform: translateX(0) !important;
+        background-color: purple;
+    }
+}
