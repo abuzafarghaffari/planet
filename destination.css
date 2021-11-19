@@ -142,4 +142,16 @@ li a {
 #destination-detail {
   margin-top: 1rem;
 }
+
+.destination-geo {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=destination.css.map */
